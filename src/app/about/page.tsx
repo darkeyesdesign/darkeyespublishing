@@ -3,6 +3,7 @@ import styles from "../page.module.css";
 
 export default function About() {
   return (
+	<>
     <div className={styles.page}>
       <main className={styles.main}>
 				<ul>
@@ -47,13 +48,13 @@ export default function About() {
         	Home 
         </a>
         <a
-          href="#"
+          href="https://www.redbubble.com/people/billbunkum/shop"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="/assets/window.svg"
             alt="Window icon"
             width={16}
             height={16}
@@ -67,7 +68,7 @@ export default function About() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="/assets/window.svg"
             alt="Window icon"
             width={16}
             height={16}
@@ -81,8 +82,8 @@ export default function About() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
+            src="/assets/globe.svg"
+            alt="Globe icon
             width={16}
             height={16}
           />
@@ -91,5 +92,6 @@ export default function About() {
       </footer>
 
 		</div>
+	</>
 	);
 }

@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
+	<>
     <div className={styles.page}>
       <main className={styles.main}>
         <Image
@@ -64,7 +65,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src="/assets/file.svg"
             alt="File icon"
             width={16}
             height={16}
@@ -78,7 +79,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="/assets/window.svg"
             alt="Window icon"
             width={16}
             height={16}
@@ -92,7 +93,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="/assets/window.svg"
             alt="Window icon"
             width={16}
             height={16}
@@ -106,8 +107,8 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
+            src="/assets/globe.svg"
+            alt="Globe icon
             width={16}
             height={16}
           />
@@ -115,5 +116,6 @@ export default function Home() {
         </a>
       </footer>
     </div>
+	</>
   );
 }
