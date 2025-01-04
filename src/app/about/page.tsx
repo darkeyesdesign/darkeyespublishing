@@ -83,7 +83,7 @@ export default function About() {
           <Image
             aria-hidden
             src="/assets/globe.svg"
-            alt="Globe icon
+            alt="Globe icon"
             width={16}
             height={16}
           />
