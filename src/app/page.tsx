@@ -8,7 +8,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src="/public/assets/iiixi-logo-icon-2020-white.png"
+          src="/assets/iiixi-logo-icon-2020-white.png"
           alt="darkeyes publishing logo"
           width={150}
           height={100}
@@ -28,7 +28,6 @@ export default function Home() {
 						alt="Falling Asleep"
 						height={300}
 						width={225}
-						priority
 					/>
           <a
             className={styles.primary}
@@ -85,7 +84,7 @@ export default function Home() {
           <Image
             aria-hidden
             src="/assets/file.svg"
-            alt="File icon"
+						alt="+"
             width={16}
             height={16}
           />
@@ -99,7 +98,7 @@ export default function Home() {
           <Image
             aria-hidden
             src="/assets/window.svg"
-            alt="Window icon"
+						alt="+"
             width={16}
             height={16}
           />
@@ -113,7 +112,7 @@ export default function Home() {
           <Image
             aria-hidden
             src="/assets/window.svg"
-            alt="Window icon"
+						alt="+"
             width={16}
             height={16}
           />
@@ -127,7 +126,7 @@ export default function Home() {
           <Image
             aria-hidden
             src="/assets/globe.svg"
-            alt="Globe icon"
+						alt="+"
             width={16}
             height={16}
           />
