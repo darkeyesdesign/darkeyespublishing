@@ -168,6 +168,9 @@ a.inline:hover {
 }
 
 @media (prefers-color-scheme: dark) {
+	.logo {
+		filter: invert();
+	}
   .thumbnail {
 /*    filter: invert();*/
   }
