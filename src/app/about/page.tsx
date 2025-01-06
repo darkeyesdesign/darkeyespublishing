@@ -40,7 +40,8 @@ export default function About() {
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src="/assets/file.svg"
+						alt="+"
             width={16}
             height={16}
           />
@@ -54,6 +55,7 @@ export default function About() {
           <Image
             aria-hidden
             src="/assets/window.svg"
+						alt="+"
             width={16}
             height={16}
           />
@@ -67,6 +69,7 @@ export default function About() {
           <Image
             aria-hidden
             src="/assets/window.svg"
+						alt="+"
             width={16}
             height={16}
           />
@@ -80,6 +83,7 @@ export default function About() {
           <Image
             aria-hidden
             src="/assets/globe.svg"
+						alt="+"
             width={16}
             height={16}
           />
