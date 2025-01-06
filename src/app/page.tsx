@@ -8,7 +8,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src="/assets/iiixi-logo-icon-2020-white.png"
+          src="/iiixi-logo-icon-2020-white.png"
           alt="darkeyes publishing logo"
           width={150}
           height={100}
@@ -24,7 +24,7 @@ export default function Home() {
         <div className={styles.ctas}>
 					<Image
 						className={styles.thumbnail}
-						src="/assets/screenshot-falling-asleep.png"
+						src="/screenshot-falling-asleep.png"
 						alt="Falling Asleep"
 						height={300}
 						width={225}
@@ -41,7 +41,7 @@ export default function Home() {
 				<div className={styles.ctas}>
 					<Image
 						className={styles.thumbnail}
-						src="/assets/screenshot-dl-corebook-hardback.png"
+						src="/screenshot-dl-corebook-hardback.png"
 						alt="DL hardback"
 						height={300}
 						width={225}
@@ -58,7 +58,7 @@ export default function Home() {
 				<div className={styles.ctas}>
 					<Image
 						className={styles.thumbnail}
-						src="/assets/screenshot-dl-corebook-paperback.png"
+						src="/screenshot-dl-corebook-paperback.png"
 						alt="DL paperback"
 						height={300}
 						width={225}
@@ -83,7 +83,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/assets/file.svg"
+            src="/file.svg"
 						alt="+"
             width={16}
             height={16}
@@ -97,7 +97,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/assets/window.svg"
+            src="/window.svg"
 						alt="+"
             width={16}
             height={16}
@@ -111,7 +111,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/assets/window.svg"
+            src="/window.svg"
 						alt="+"
             width={16}
             height={16}
@@ -125,7 +125,7 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/assets/globe.svg"
+            src="/globe.svg"
 						alt="+"
             width={16}
             height={16}
