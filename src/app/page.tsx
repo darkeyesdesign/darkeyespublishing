@@ -22,7 +22,7 @@ export default function Home() {
         <div className={styles.ctas}>
 					<img
 						className={styles.thumbnail}
-						src="/screenshot-falling-asleep.png"
+						src="./screenshot-falling-asleep.png"
 						alt="Falling Asleep"
 						height={300}
 						width={225}
@@ -39,7 +39,7 @@ export default function Home() {
 				<div className={styles.ctas}>
 					<img
 						className={styles.thumbnail}
-						src="/screenshot-dl-corebook-hardback.png"
+						src="./screenshot-dl-corebook-hardback.png"
 						alt="DL hardback"
 						height={300}
 						width={225}
@@ -56,7 +56,7 @@ export default function Home() {
 				<div className={styles.ctas}>
 					<img
 						className={styles.thumbnail}
-						src="/screenshot-dl-corebook-paperback.png"
+						src="./screenshot-dl-corebook-paperback.png"
 						alt="DL paperback"
 						height={300}
 						width={225}
@@ -75,13 +75,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="/about"
+          href="./about"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img
             aria-hidden
-            src="/file.svg"
+            src="./file.svg"
 						alt="+"
             width={16}
             height={16}
@@ -95,7 +95,7 @@ export default function Home() {
         >
           <img
             aria-hidden
-            src="/window.svg"
+            src="./window.svg"
 						alt="+"
             width={16}
             height={16}
@@ -109,7 +109,7 @@ export default function Home() {
         >
           <img
             aria-hidden
-            src="/window.svg"
+            src="./window.svg"
 						alt="+"
             width={16}
             height={16}
@@ -123,7 +123,7 @@ export default function Home() {
         >
           <img
             aria-hidden
-            src="/globe.svg"
+            src="./globe.svg"
 						alt="+"
             width={16}
             height={16}
