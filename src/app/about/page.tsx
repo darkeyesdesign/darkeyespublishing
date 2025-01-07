@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "../page.module.css";
 
 export default function About() {
@@ -38,7 +37,7 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="/file.svg"
 						alt="+"
@@ -52,7 +51,7 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="/window.svg"
 						alt="+"
@@ -66,7 +65,7 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="/window.svg"
 						alt="+"
@@ -80,7 +79,7 @@ export default function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="/globe.svg"
 						alt="+"
