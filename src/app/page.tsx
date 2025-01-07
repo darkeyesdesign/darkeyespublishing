@@ -7,7 +7,7 @@ export default function Home() {
       <main className={styles.main}>
         <img
           className={styles.logo}
-          src="/iiixi-logo-icon-2020-white.png"
+          src="./iiixi-logo-icon-2020-white.png"
           alt="darkeyes publishing logo"
           width={150}
           height={100}
