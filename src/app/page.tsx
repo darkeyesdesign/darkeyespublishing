@@ -6,13 +6,12 @@ export default function Home() {
 	<>
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image
+        <img
           className={styles.logo}
           src="/iiixi-logo-icon-2020-white.png"
           alt="darkeyes publishing logo"
           width={150}
           height={100}
-          priority
         />
 				<h2>Darkeyes Publishing</h2>
         <ul>
@@ -22,7 +21,7 @@ export default function Home() {
         </ul>
 
         <div className={styles.ctas}>
-					<Image
+					<img
 						className={styles.thumbnail}
 						src="/screenshot-falling-asleep.png"
 						alt="Falling Asleep"
@@ -39,7 +38,7 @@ export default function Home() {
           </a>
 				</div>
 				<div className={styles.ctas}>
-					<Image
+					<img
 						className={styles.thumbnail}
 						src="/screenshot-dl-corebook-hardback.png"
 						alt="DL hardback"
@@ -56,7 +55,7 @@ export default function Home() {
           </a>
 				</div>
 				<div className={styles.ctas}>
-					<Image
+					<img
 						className={styles.thumbnail}
 						src="/screenshot-dl-corebook-paperback.png"
 						alt="DL paperback"
@@ -81,7 +80,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="/file.svg"
 						alt="+"
@@ -95,7 +94,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="/window.svg"
 						alt="+"
@@ -109,7 +108,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="/window.svg"
 						alt="+"
@@ -123,7 +122,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="/globe.svg"
 						alt="+"
