@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import Navigation from "./components/_navigation.tsx"
 
 export default function Home() {
   return (
@@ -74,62 +75,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="./about"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            aria-hidden
-            src="./file.svg"
-						alt="+"
-            width={16}
-            height={16}
-          />
-        	About 
-        </a>
-        <a
-          href="https://www.redbubble.com/people/billbunkum/shop"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            aria-hidden
-            src="./window.svg"
-						alt="+"
-            width={16}
-            height={16}
-          />
-        	Merch 
-        </a>
-				<a
-          href="https://dreadlore.substack.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            aria-hidden
-            src="./window.svg"
-						alt="+"
-            width={16}
-            height={16}
-          />
-        	Newsletter 
-        </a>
-        <a
-          href="https://www.lulu.com/spotlight/darkeyespublishing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            aria-hidden
-            src="./globe.svg"
-						alt="+"
-            width={16}
-            height={16}
-          />
-          Go to Book Store →
-        </a>
+				<Navigation />
       </footer>
     </div>
 	</>
