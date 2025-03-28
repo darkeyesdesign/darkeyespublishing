@@ -33,7 +33,7 @@ export default function About() {
 			</main>
       <footer className={styles.footer}>
         <a
-          href="/"
+          href="/darkeyespublishing/"
           target="_blank"
           rel="noopener noreferrer"
         >
