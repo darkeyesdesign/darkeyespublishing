@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import Navigation from "./components/_navigation.tsx"
+import Navigation from "./components/_navigation";
 
 export default function Home() {
   return (
