@@ -4,7 +4,7 @@ export default function Navigation() {
 	return (
 		<>
 				<a
-					href="/"
+					href="/darkeyespublishing"
 				>
 					<img
 						aria-hidden
