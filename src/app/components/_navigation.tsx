@@ -60,6 +60,20 @@ export default function Navigation() {
         	Newsletter 
         </a>
         <a
+          href="https://drive.google.com/drive/u/5/folders/1G0s_azVIMjwtDXdHzaqJE-VSDVgCaqwa"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            aria-hidden
+            src="./window.svg"
+						alt="+"
+            width={16}
+            height={16}
+          />
+         	Resources 
+        </a>
+        <a
           href="https://www.lulu.com/spotlight/darkeyespublishing"
           target="_blank"
           rel="noopener noreferrer"

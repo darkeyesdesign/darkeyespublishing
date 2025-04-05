@@ -6,6 +6,7 @@ export default function Home() {
 	<>
     <div className={styles.page}>
       <main className={styles.main}>
+
         <img
           className={styles.logo}
           src="./iiixi-logo-icon-2020-white.png"
@@ -19,6 +20,12 @@ export default function Home() {
 						Check out our titles below.
           </li>
         </ul>
+
+	      <header className={styles.header}>
+					<Navigation />
+   	   	</header>
+
+				<hr />
 
         <div className={styles.ctas}>
 					<img
