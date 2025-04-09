@@ -1,5 +1,4 @@
 import styles from "../page.module.css";
-import Image from "next/image";
 
 export default function Navigation() {
 	return (
@@ -7,7 +6,7 @@ export default function Navigation() {
 				<a
 					href="/darkeyespublishing"
 				>
-					<Image
+					<img
 						aria-hidden
 						src="./house-solid.svg"
 						alt="+"
@@ -23,7 +22,7 @@ export default function Navigation() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="./file.svg"
 						alt="+"
@@ -37,7 +36,7 @@ export default function Navigation() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="./window.svg"
 						alt="+"
@@ -51,7 +50,7 @@ export default function Navigation() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="./window.svg"
 						alt="+"
@@ -65,7 +64,7 @@ export default function Navigation() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="./window.svg"
 						alt="+"
@@ -79,7 +78,7 @@ export default function Navigation() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
+          <img
             aria-hidden
             src="./globe.svg"
 						alt="+"

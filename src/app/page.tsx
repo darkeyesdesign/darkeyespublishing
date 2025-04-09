@@ -1,6 +1,5 @@
 import styles from "./page.module.css";
 import Navigation from "./components/_navigation";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,7 +7,7 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
 
-        <Image
+        <img
           className={styles.logo}
           src="./iiixi-logo-icon-2020-white.png"
           alt="darkeyes publishing logo"
@@ -29,7 +28,7 @@ export default function Home() {
 				<hr />
 
         <div className={styles.ctas}>
-					<Image
+					<img
 						className={styles.thumbnail}
 						src="./screenshot-falling-asleep.png"
 						alt="Falling Asleep"
@@ -46,7 +45,7 @@ export default function Home() {
           </a>
 				</div>
 				<div className={styles.ctas}>
-					<Image
+					<img
 						className={styles.thumbnail}
 						src="./screenshot-dl-corebook-hardback.png"
 						alt="DL hardback"
@@ -63,7 +62,7 @@ export default function Home() {
           </a>
 				</div>
 				<div className={styles.ctas}>
-					<Image
+					<img
 						className={styles.thumbnail}
 						src="./screenshot-dl-corebook-paperback.png"
 						alt="DL paperback"
@@ -81,7 +80,7 @@ export default function Home() {
         </div>
 
 				<div className={styles.ctas}>
-					<Image
+					<img
 						className={styles.thumbnail}
 						src="./cover-character-sheet.png"
 						alt="Character Sheet"
@@ -99,7 +98,7 @@ export default function Home() {
 				</div>
 
 				<div className={styles.ctas}>
-					<Image
+					<img
 						className={styles.thumbnail}
 						src="./cover-2-theurgist-atop-seers-hill-adventure-location-vertical-small-fin.png"
 						alt="The Theurgist Atop Seer's Hill"
@@ -117,7 +116,7 @@ export default function Home() {
 				</div>
 
 				<div className={styles.ctas}>
-					<Image
+					<img
 						className={styles.thumbnail}
 						src="./the-keeping-cave-cover.png"
 						alt="The Keeping Cave (module)"
@@ -135,7 +134,7 @@ export default function Home() {
 				</div>
 
 				<div className={styles.ctas}>
-					<Image
+					<img
 						className={styles.thumbnail}
 						src="./gsg-v.1.2-cover.jpg"
 						alt="Getting Started Guide"
