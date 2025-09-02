@@ -31,6 +31,21 @@ export default function Navigation() {
           />
         	About 
         </a>
+
+				<a
+					href="/contact/"
+					alt="contact"
+				>
+					<img
+						aria-hidden
+						src="./window.svg"
+						alt="+"
+						width={16}
+						height={16}
+					/>
+						Contact
+				</a>
+
         <a
           href="https://www.redbubble.com/people/billbunkum/shop"
           target="_blank"
