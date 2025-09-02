@@ -38,7 +38,7 @@ export default function Navigation() {
 				>
 					<img
 						aria-hidden
-						src="./window.svg"
+						src="./contact.png"
 						alt="+"
 						width={16}
 						height={16}

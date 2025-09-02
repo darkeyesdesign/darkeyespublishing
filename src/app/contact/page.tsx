@@ -10,6 +10,20 @@ export default function Contact() {
 						<li>
 							(Form under construction)
 							Drop us a line via <a href="https://instagram.com/dreadloresystem">Instagram</a>.
+							<form
+							  action="https://formspree.io/f/mblazgke"
+							  method="POST"
+							>
+							  <label>
+							    Your email:
+							    <input type="email" name="email" />
+							  </label>
+							  <label>
+  							  Your message:
+							    <textarea name="message"></textarea>
+							  </label>
+							  <button type="submit">Send</button>
+							</form>
 						</li>
 					</ul>
 				</main>
