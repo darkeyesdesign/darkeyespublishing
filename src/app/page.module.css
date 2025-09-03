@@ -188,6 +188,20 @@ a.inline:hover {
   }
 }
 
+.contact_form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contact_form > label {
+	margin: 1.2em;
+}
+
+button.submit_button {
+	height: 3em;
+	width: 4em;
+}
+
 @media (prefers-color-scheme: light) {
 	.logo {
 		filter: invert();

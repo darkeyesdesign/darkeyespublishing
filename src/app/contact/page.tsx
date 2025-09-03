@@ -8,21 +8,32 @@ export default function Contact() {
 				<main className={styles.main}>
 					<ul>
 						<li>
-							(Form under construction)
-							Drop us a line via <a href="https://instagram.com/dreadloresystem">Instagram</a>.
+							Drop us a line via&nbsp;
+							<u><a 
+								href="https://instagram.com/dreadloresystem">Instagram
+							</a></u>&nbsp;
+							 or the Form below.
 							<form
 							  action="https://formspree.io/f/mblazgke"
+								className={styles.contact_form}
 							  method="POST"
 							>
 							  <label>
-							    Your email:
-							    <input type="email" name="email" />
+							    Your Email:
 							  </label>
+								<input type="email" name="email" />
+
 							  <label>
-  							  Your message:
-							    <textarea name="message"></textarea>
+									What's up?:
 							  </label>
-							  <button type="submit">Send</button>
+						    <textarea name="message"></textarea>
+
+							  <label><button 
+									className={styles.submit_button}
+									type="submit">SEND
+								</button>
+								</label>
+
 							</form>
 						</li>
 					</ul>
