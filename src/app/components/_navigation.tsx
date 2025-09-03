@@ -34,7 +34,6 @@ export default function Navigation() {
 
 				<a
 					href="/contact/"
-					alt="contact"
 				>
 					<img
 						aria-hidden
